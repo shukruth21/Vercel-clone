@@ -7,9 +7,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const s3 = new AWS.S3({
-    accessKeyId: "a796181af29f73ba3a13fc4e4390991f",
-    secretAccessKey: "2d56de239fa346e93a995c1e6bcfb120873a69b19eb6fea7926899c4d15d16c1",
-    endpoint: "https://c33a7784ff7805cf551e71d2b920feb7.r2.cloudflarestorage.com"
+    accessKeyId: "",
+    secretAccessKey: "",
+    endpoint: ""
 })
 
 // output/asdasd
